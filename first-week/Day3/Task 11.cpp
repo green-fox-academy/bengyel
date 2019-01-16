@@ -29,13 +29,17 @@ std::cout << b2 << std::endl;
 
 int h = 135798745;
 bool b3 = (h % 11 == 0 );
+    std::cout << b3 << std::endl;
 
 int i1 = 10;
 int i2 = 3;
 bool b4 = (i1 > i2 * i2 && i1 < i2 * i2 * i2);
+    std::cout << b4 << std::endl;
 
 int j = 1521;
 bool b5 = ( j % 5 == 0 || j % 3 == 0);
+    std::cout << b5 << std::endl;
+
 
 
 
