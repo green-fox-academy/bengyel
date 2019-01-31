@@ -14,7 +14,7 @@ void counter(int count)
 {
     if (count >= 1)
     {
-    counter(count - 1);
-    std::cout << count << std::endl;
+        std::cout << count << std::endl;
+        counter(count - 1);
     }
 };
